@@ -1,0 +1,185 @@
+body {
+  background-color: rgb(20, 36, 66);
+}
+.big-players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  gap: 20px;
+  width: 90%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 2%);
+}
+.big-players > div {
+  height: 600px;
+  background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  color: whitesmoke;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.big-players > div:hover {
+  transform: scale(1.05);
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+.big-player--1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.big-player--2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.big-player--3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.big-player--4 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.big-player--5 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.big-player--6 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+.big-player--7 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.big-player--8 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+.big-player--9 {
+  grid-area: 3 / 3 / 4 / 4;
+}
+.big-player--1__img {
+  background-image: url(../images/Drogba-trophy.jpg);
+  height: 40%;
+  background-position: top;
+  background-size: cover;
+  filter: brightness(80%);
+  text-align: center;
+  color: white;
+  font-size: 32px;
+}
+.big-player--2__img {
+  background-image: url(../images/Drogba-trophy.jpg);
+  height: 40%;
+  background-position: top;
+  background-size: cover;
+  filter: brightness(80%);
+  text-align: center;
+  color: white;
+  font-size: 32px;
+}
+.big-player--3__img {
+  background-image: url(../images/Drogba-trophy.jpg);
+  height: 40%;
+  background-position: top;
+  background-size: cover;
+  filter: brightness(80%);
+  text-align: center;
+  color: white;
+  font-size: 32px;
+}
+.big-player--4__img {
+  background-image: url(../images/Drogba-trophy.jpg);
+  height: 40%;
+  background-position: top;
+  background-size: cover;
+  filter: brightness(80%);
+  text-align: center;
+  color: white;
+  font-size: 32px;
+}
+.big-player--5__img {
+  background-image: url(../images/Drogba-trophy.jpg);
+  height: 40%;
+  background-position: top;
+  background-size: cover;
+  filter: brightness(80%);
+  text-align: center;
+  color: white;
+  font-size: 32px;
+}
+.big-player--6__img {
+  background-image: url(../images/Drogba-trophy.jpg);
+  height: 40%;
+  background-position: top;
+  background-size: cover;
+  filter: brightness(80%);
+  text-align: center;
+  color: white;
+  font-size: 32px;
+}
+.big-player--7__img {
+  background-image: url(../images/Drogba-trophy.jpg);
+  height: 40%;
+  background-position: top;
+  background-size: cover;
+  filter: brightness(80%);
+  text-align: center;
+  color: white;
+  font-size: 32px;
+}
+.big-player--8__img {
+  background-image: url(../images/Drogba-trophy.jpg);
+  height: 40%;
+  background-position: top;
+  background-size: cover;
+  filter: brightness(80%);
+  text-align: center;
+  color: white;
+  font-size: 32px;
+}
+.big-player--9__img {
+  background-image: url(../images/Drogba-trophy.jpg);
+  height: 40%;
+  background-position: top;
+  background-size: cover;
+  filter: brightness(80%);
+  text-align: center;
+  color: white;
+  font-size: 32px;
+}
+.big-player__text {
+  text-align: center;
+}
+.big-players__table {
+  height: 60%;
+  border-collapse: collapse;
+  margin: 10px;
+}
+.big-players__table td {
+  border: 1px groove white;
+  border-radius: 20px;
+}
+td span {
+  margin-left: 10px;
+}
+.headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+  width: 500px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 2%);
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
