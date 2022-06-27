@@ -1,5 +1,4 @@
-body {
-  background-color: rgb(20, 36, 66);
+body {background-color: rgb(20,36,66);
 }
 .big-players {
   display: grid;
@@ -70,7 +69,7 @@ body {
   font-size: 32px;
 }
 .big-player--2__img {
-  background-image: url(../images/Drogba-trophy.jpg);
+  background-image: url(../images/frank-lampard-player.jpg);
   height: 40%;
   background-position: top;
   background-size: cover;
@@ -80,7 +79,7 @@ body {
   font-size: 32px;
 }
 .big-player--3__img {
-  background-image: url(../images/Drogba-trophy.jpg);
+  background-image: url(../images/john-terry.webp);
   height: 40%;
   background-position: top;
   background-size: cover;
@@ -90,7 +89,7 @@ body {
   font-size: 32px;
 }
 .big-player--4__img {
-  background-image: url(../images/Drogba-trophy.jpg);
+  background-image: url(../images/peter-osgood.webp);
   height: 40%;
   background-position: top;
   background-size: cover;
@@ -100,7 +99,7 @@ body {
   font-size: 32px;
 }
 .big-player--5__img {
-  background-image: url(../images/Drogba-trophy.jpg);
+  background-image: url(../images/gianfranco-zola.jpg);
   height: 40%;
   background-position: top;
   background-size: cover;
@@ -110,7 +109,7 @@ body {
   font-size: 32px;
 }
 .big-player--6__img {
-  background-image: url(../images/Drogba-trophy.jpg);
+  background-image: url(../images/petr-cech.jpg);
   height: 40%;
   background-position: top;
   background-size: cover;
@@ -120,7 +119,7 @@ body {
   font-size: 32px;
 }
 .big-player--7__img {
-  background-image: url(../images/Drogba-trophy.jpg);
+  background-image: url(../images/bobby-tambling-black.jpg);
   height: 40%;
   background-position: top;
   background-size: cover;
@@ -130,7 +129,7 @@ body {
   font-size: 32px;
 }
 .big-player--8__img {
-  background-image: url(../images/Drogba-trophy.jpg);
+  background-image: url(../images/dennis-wise-2.jpg);
   height: 40%;
   background-position: top;
   background-size: cover;
@@ -140,7 +139,7 @@ body {
   font-size: 32px;
 }
 .big-player--9__img {
-  background-image: url(../images/Drogba-trophy.jpg);
+  background-image: url(../images/ronn-harris-3.jpg);
   height: 40%;
   background-position: top;
   background-size: cover;
