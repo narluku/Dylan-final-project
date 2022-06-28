@@ -1,0 +1,70 @@
+.body4 {
+  background-color: rgb(20, 36, 66);
+}
+.headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+  width: 100%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 2%);
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 60%;
+  position: relative;
+  /*   top: 50%; */
+  left: 30%;
+  /*   transform: translate(-50%, 20%); */
+  padding: 50px;
+  background: whitesmoke;
+  border-radius: 18px;
+  gap: 10px;
+  font-size: 30px;
+  margin: 30px;
+}
+
+input {
+  padding: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.contact-info {
+  height: 500px;
+  width: 400px;
+  position: relative;
+  left: 40%;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  background-color: whitesmoke;
+  color: blue;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.dylan-img {
+  height: 70%;
+  background: url("/images/dylan-haddad-1.jpg");
+  background-size: cover;
+}
+.dylantext {
+  height: 30%;
+}
+.maps{margin: 20px;}
+

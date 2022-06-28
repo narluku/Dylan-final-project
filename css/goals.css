@@ -1,0 +1,72 @@
+.body2{background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);}
+.goals {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  gap: 35px;
+  margin: 70px 30px;
+  position: relative;
+  
+}
+.headline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    background-color: #8bc6ec;
+    background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+    width: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 2%);
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+.goals > div {
+  
+  height: 38vh;
+  border-radius: 30px;
+}
+.goals__goal--1 {
+  grid-area: 1 / 1 / 3 / 3; background-image: url("../images/bayern-chelsea.jpg"); background-size: cover;
+}
+.goals__goal--2 {
+  grid-area: 1 / 3 / 3 / 6; 
+}
+.goals__goal--3 {
+  grid-area: 3 / 1 / 5 / 3; background-image: url("../images/Chelsea-Barcelona.jpg"); background-size: cover;
+}
+.goals__goal--4 {
+  grid-area: 3 / 3 / 5 / 6; 
+}
+.goals__goal--5 {
+  grid-area: 5 / 1 / 7 / 3; background-image: url("../images/chelsea-leeds-2.jpg"); background-size: cover;
+}
+.goals__goal--6 {
+  grid-area: 5 / 3 / 7 / 6;
+}
+.goals__goal--7 {
+  grid-area: 7 / 1 / 9 / 3; background-image: url("../images/chelsea-napoli.png"); background-size: cover;
+}
+.goals__goal--8 {
+  grid-area: 7 / 3 / 9 / 6;
+}
+.goals__goal--9 {
+  grid-area: 9 / 1 / 11 / 3; background-image: url("../images/Chelsea-Liverpool.jpg");background-size: cover;
+}
+.goals__goal--10 {
+  grid-area: 9 / 3 / 11 / 6;
+}
+.goals__goal--11 {
+  grid-area: 11 / 1 / 13 / 3; background-image: url("../images/chelsea-city.png"); background-size: cover;
+}
+.goals__goal--12 {
+  grid-area: 11 / 3 / 13 / 6;
+}
+.text{text-align: center; color: whitesmoke; margin-top: 20px;}
