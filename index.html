@@ -1,59 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homepage</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon" type="image/x-icon" href="/images/chelsea-fc-logo.png" />
-    <style>
-      body {
-        background-image: url("../images/stamford-bridge.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-      }
-      #p2 {
-        margin-top: 50px;
-      }
-      #p3 {
-        margin-top: 50px;
-        font-size: 30px;
-        color: rgb(0, 204, 255);
-      }
-    </style>
-  </head>
-  <body>
-    <div class="navbar">
-      <a class="navbar-logo" href="index.html" alt></a>
-      <div class="navbar__left">
-        <a href="goals.html" class="navbar__left--item">Goals </a>
-        <a href="big-players.html" class="navbar__left--item">Big players</a>
-        <a href="history-club.html" class="navbar__left--item"
-          >History of the club</a
-        >
-      </div>
-      <div class="navbar__right">
-        <a href="contact.html" class="navbar__right--item">Contact</a>
-        <a href="sitemap.html" class="navbar__right--item">Sitemap</a>
-      </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homepage</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/x-icon" href="/images/chelsea-fc-logo.png">
+  <style>
+    #p2 {
+      margin-top: 50px;
+    }
+
+    #p3 {
+      margin-top: 50px;
+      font-size: 30px;
+      color: rgb(0, 204, 255);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="navbar">
+    <a class="navbar-logo" href="index.html" alt></a>
+    <div class="navbar__left">
+      <a href="goals.html" class="navbar__left--item">Goals </a>
+      <a href="big-players.html" class="navbar__left--item">Big players</a>
+      <a href="history-club.html" class="navbar__left--item">History of the club</a>
     </div>
-    <div class="main">
-      <div class="main__title"><h1>Chelsea FC Fan Page</h1></div>
+    <div class="navbar__right">
+      <a href="contact.html" class="navbar__right--item">Contact</a>
+      <a href="sitemap.html" class="navbar__right--item">Sitemap</a>
+    </div>
+  </div>
+  <div class="main">
+    <div class="main_content">
+      <div class="main__title">
+        <h1>Chelsea FC Fan Page</h1>
+      </div>
       <div class="main__text">
         <p>
           The Chelsea FC fan page aims to inform, entertain, and share relevant
           content about the history of the club and its players over the years.
-          Monumental goals will also be shared for your entertainment.
-        </p>
+          Monumental goals will also be shared for your entertainment. </p>
 
-        <p id="p2">
-          While our objective is to be a platform for hardcore fans, it is also
-          to attract people who are new to the sport, and help them choose the
-          right club a.k.a CHELSEA FC!
+        <p id="p2"> While our objective is to be a platform for hardcore fans, it is also to attract
+          people who are new to the sport, and help them choose the right club a.k.a CHELSEA FC!
         </p>
         <p id="p3"><strong> WELCOME BLUES!</strong></p>
       </div>
     </div>
-  </body>
+  </div>
+  <!-- gallery starts here -->
+  <div class="gallery">
+    <h1 class="gallery_heading">
+      Gallery
+    </h1>
+    <img src="./images/hp_slider_1.jpg" alt="" class="gallery_main_image">
+    <div class="gallery_images_row">
+      <img src="./images/hp_slider_1.jpg" alt="" class="gallery_row_img">
+      <img src="./images/hp_slider_2.jpg" alt="" class="gallery_row_img">
+      <img src="./images/hp_slider_3.jpg" alt="" class="gallery_row_img">
+    </div>
+  </div>
+  <!-- gallery ends here -->
+  <!-- teams section starts here -->
+  <div class="teams">
+    <img src="./images/men.png" alt="" class="teams_image">
+    <img src="./images/women.png" alt="" class="teams_image">
+  </div>
+  <!-- teams section ends here -->
+  <!-- footer starts here -->
+  <footer>
+    <div class="footer_links_row">
+      <a href="./goals.html" class="footer_link">Goals</a>
+      <a href="./big-players.html" class="footer_link">Big Players</a>
+      <a href="./history-club.html" class="footer_link">History of the Club</a>
+      <a href="./contact.html" class="footer_link">Contact</a>
+      <a href="./sitemap.html" class="footer_link">Sitemap</a>
+    </div>
+    <hr style="height: 1px;background-color:#f7f7f7">
+    <div class="footer_text_row">
+      © 2022 Chelsea FC. All rights reserved. No part of this site may be reproduced without our written permission.
+    </div>
+  </footer>
+  <!-- footer ends here -->
+
+  <script>
+    let gallery_row_img = document.querySelectorAll(".gallery_row_img");
+    let gallery_main_image = document.querySelector(".gallery_main_image");
+    gallery_row_img.forEach((img)=>{
+      img.addEventListener("click",(event)=>{
+        gallery_main_image.setAttribute("src",event.target.src);
+      })
+    })
+  </script>
+</body>
+
 </html>

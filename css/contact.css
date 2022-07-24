@@ -66,6 +66,31 @@ input {
 .dylantext {
   height: 30%;
 }
-.maps {
-  margin: 20px;
+.maps{margin: 20px;}
+
+
+.d_none {
+  display: none;
+}
+
+.error {
+  font-size: 1rem;
+  color: red;
+}
+
+@media only screen and (max-width:768px){
+  .container {
+    flex-direction: column;
+  }
+  form {
+    width: 80%;
+    left: 10%;
+    margin: 0;
+    margin-top: 3rem;
+  }
+
+  .contact-info {
+    left: 10%;
+    width: 80%;
+  }
 }

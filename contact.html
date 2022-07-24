@@ -1,65 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/contact.css" />
-    <link rel="icon" type="image/x-icon" href="/images/chelsea-fc-logo.png">
-  </head>
-  <body class="body4">
-    <div class="navbar">
-      <a class="navbar-logo" href="index.html" alt></a>
-      <div class="navbar__left">
-        <a href="goals.html" class="navbar__left--item">Goals </a>
-        <a href="big-players.html" class="navbar__left--item">Big players</a>
-        <a href="history-club.html" class="navbar__left--item"
-          >History of the club</a
-        >
-      </div>
-      <div class="navbar__right">
-        <a href="contact.html" class="navbar__right--item">Contact</a>
-        <a href="sitemap.html" class="navbar__right--item">Sitemap</a>
-      </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/contact.css" />
+  <link rel="icon" type="image/x-icon" href="/images/chelsea-fc-logo.png">
+</head>
+
+<body class="body4">
+  <div class="navbar">
+    <a class="navbar-logo" href="index.html" alt></a>
+    <div class="navbar__left">
+      <a href="goals.html" class="navbar__left--item">Goals </a>
+      <a href="big-players.html" class="navbar__left--item">Big players</a>
+      <a href="history-club.html" class="navbar__left--item">History of the club</a>
     </div>
-    <div class="headline">
-      <h1>Contact information</h1>
-      <h2>Feel free to write your recommendations and review below!</h2>
+    <div class="navbar__right">
+      <a href="contact.html" class="navbar__right--item">Contact</a>
+      <a href="sitemap.html" class="navbar__right--item">Sitemap</a>
     </div>
-    <div class="container">
-        <form action="#">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          <label for="email">Email</label>
-          <input type="text" id="email" name="email" placeholder="Your email..">
-          <label for="subject">Suggestions and overall thought</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  </div>
+  <div class="headline">
+    <h1>Contact information</h1>
+    <h2>Feel free to write your recommendations and review below!</h2>
+  </div>
+  <div class="container">
+    <form action="#">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      <p class="error d_none"></p>
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      <p class="error d_none"></p>
+
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" placeholder="Your email..">
+      <p class="error d_none"></p>
+
+      <label for="subject">Suggestions and overall thought</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      <p class="error d_none"></p>
+
       <h5>Would you recommend this website ?</h1>
-      <label class="">Yes
-        <input type="checkbox" checked="checked">
-        <span class=""></span>
-      </label>
-      <label class="">No
-        <input type="checkbox">
-        <span class=""></span>
-      </label>
-          <input type="submit" value="Submit">
-        </form>
-        <div class="contact-info"><div class="dylan-img"></div><div class="dylantext"><p>Creator of fan club: DYLAN HADDAD</p><p>Phone number: +1(617)516-9917</p> <p><a href="mailto:dhaddad1@babson.edu" dhaddad1@babson.edu> Email: dhaddad1@babson.edu</a> </p> <p><a href="https://www.linkedin.com/in/dylan-haddad-50199818b/">LinkedIn profile</a></p></div></div>
+        <label class="">Yes
+          <input type="checkbox" checked="checked">
+          <span class=""></span>
+        </label>
+        <label class="">No
+          <input type="checkbox">
+          <span class=""></span>
+        </label>
+        <input type="submit" value="Submit">
+    </form>
+    <div class="contact-info">
+      <div class="dylan-img"></div>
+      <div class="dylantext">
+        <p>Creator of fan club: DYLAN HADDAD</p>
+        <p>Phone number: +1(617)516-9917</p>
+        <p><a href="mailto:dhaddad1@babson.edu" dhaddad1@babson.edu> Email: dhaddad1@babson.edu</a> </p>
+        <p><a href="https://www.linkedin.com/in/dylan-haddad-50199818b/">LinkedIn profile</a></p>
       </div>
-    <iframe class="maps"
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.7193105100946!2d-0.19314518407567866!3d51.48166632040521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760f864b976f3d%3A0x48aa38781ea565f8!2sStamford%20Bridge!5e0!3m2!1sen!2sus!4v1656389169402!5m2!1sen!2sus"
-      width="600"
-      height="450"
-      style="border: 0"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
-    ></iframe>
-  </body>
+    </div>
+  </div>
+  <iframe class="maps"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.7193105100946!2d-0.19314518407567866!3d51.48166632040521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760f864b976f3d%3A0x48aa38781ea565f8!2sStamford%20Bridge!5e0!3m2!1sen!2sus!4v1656389169402!5m2!1sen!2sus"
+    width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <!-- footer starts here -->
+  <footer>
+    <div class="footer_links_row">
+      <a href="./goals.html" class="footer_link">Goals</a>
+      <a href="./big-players.html" class="footer_link">Big Players</a>
+      <a href="./history-club.html" class="footer_link">History of the Club</a>
+      <a href="./contact.html" class="footer_link">Contact</a>
+      <a href="./sitemap.html" class="footer_link">Sitemap</a>
+    </div>
+    <hr style="height: 1px;background-color:#f7f7f7">
+    <div class="footer_text_row">
+      © 2022 Chelsea FC. All rights reserved. No part of this site may be reproduced without our written permission.
+    </div>
+  </footer>
+  <!-- footer ends here -->
+  <script>
+    let formEl = document.querySelector("form");
+    let fname = document.querySelector("#fname");
+    let lname = document.querySelector("#lname");
+    let email = document.querySelector("#email");
+    let subject = document.querySelector("#subject");
+    let allInputs = [fname, lname, email, subject];
+    formEl.addEventListener("submit", (event) => {
+      event.preventDefault()
+      let noError = true;
+      allInputs.forEach((input) => {
+        if (input.value.trim() === "") {
+          input.nextElementSibling.innerHTML = "This input can not be empty."
+          input.nextElementSibling.classList.remove("d_none");
+          noError = false;
+        }
+        else if (input.value.trim() != "") {
+          input.nextElementSibling.innerHTML = ""
+          input.nextElementSibling.classList.add("d_none");
+          noError = true;
+        }
+
+        if (input.getAttribute("id") === "fname" || input.getAttribute("id") === "lname") {
+          if (/\d/.test(input.value.trim())) {
+            input.nextElementSibling.innerHTML = "Name should not have any number."
+            input.nextElementSibling.classList.remove("d_none");
+            noError = false;
+          }
+        }
+
+        if (input.getAttribute("id") === "email") {
+          if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(input.value.trim())) {
+            input.nextElementSibling.innerHTML = "This is not a valid email address."
+            input.nextElementSibling.classList.remove("d_none");
+            noError = false;
+          }
+          else {
+            input.nextElementSibling.classList.add("d_none");
+            noError = true;
+          }
+        }
+
+        if (noError){
+          formEl.submit()
+        }
+      })
+    })
+  </script>
+</body>
+
 </html>
